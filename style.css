@@ -1,0 +1,99 @@
+p{
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
+form{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px;
+}
+.lecture{
+    font-style: italic;
+}
+.monday{
+    background-color: rgb(251, 156, 156);
+}
+.tuesday{
+    background-color: rgb(251, 245, 156);
+}
+.wednesday{
+    background-color: rgb(156, 251, 156);
+}
+.thursday{
+    background-color: rgb(156, 218, 251);
+}
+.friday{
+    background-color: rgb(251, 156, 243);
+}
+#image{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+}
+#button{
+    background-color: rgb(162, 162, 162);
+    padding: 0.5em;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+}
+.highlight{
+    background-color: rgb(247, 249, 213);
+}
+#main-heading{
+    text-align: center;
+}
+.header{
+    background-color: rgb(187, 231, 248);
+    padding: 10px;
+    text-align: center;
+}
+.main-content{
+    padding: 10px;
+}
+.footer{
+    background-color: rgb(236, 251, 239);
+    padding: 10px;
+    text-align: center;
+}
+.positioning{
+    position: relative;
+    height: 200px;
+}
+.static{
+    position: static;
+    padding: 10px;
+    width: 100px;
+}
+.relative{
+    position: relative;
+    left: 30px;
+    top: 20px;
+    padding: 10px;
+    width: 100px;
+}
+.absolute{
+    position: absolute;
+    left: 250px;
+    top: 100px;
+    padding: 10px;
+    width: 100px;
+}
+.left-box{
+    float: left;
+    width: 30%;
+    height: 100px;
+    background-color: rgb(160, 241, 250);
+    text-align: center;
+    padding: 10px;
+}
+.right-box{
+    float: right;
+    width: 30%;
+    height: 100px;
+    background-color: rgb(242, 250, 182);
+    text-align: center;
+    padding: 10px;
+}
+.clear{
+    clear: both;
+}
